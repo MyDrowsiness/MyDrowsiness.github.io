@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> - Hexo</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="一、平面转换transform1.概念作用为元素添加动态效果，一般与过度配合使用。
+概念改变盒子在平面内的形态（位移、旋转、缩放、倾斜）。
+代码12345678910111213&amp;lt;style&amp;,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content=" - Hexo"/>
+    <meta name="twitter:description" content="一、平面转换transform1.概念作用为元素添加动态效果，一般与过度配合使用。
+概念改变盒子在平面内的形态（位移、旋转、缩放、倾斜）。
+代码12345678910111213&amp;lt;style&amp;,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Hexo"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content=" - Hexo"/>
+    <meta property="og:description" content="一、平面转换transform1.概念作用为元素添加动态效果，一般与过度配合使用。
+概念改变盒子在平面内的形态（位移、旋转、缩放、倾斜）。
+代码12345678910111213&amp;lt;style&amp;,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Hexo</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle"></h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title"></h1>
+        <div class="stuff">
+            <span>十二月 13, 2023</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <h1 id="一、平面转换transform"><a href="#一、平面转换transform" class="headerlink" title="一、平面转换transform"></a>一、平面转换transform</h1><h2 id="1-概念"><a href="#1-概念" class="headerlink" title="1.概念"></a>1.概念</h2><h4 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h4><p>为元素添加动态效果，一般与过度配合使用。</p>
+<h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p>改变盒子在平面内的形态（位移、旋转、缩放、倾斜）。</p>
+<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-tag">div</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">margin</span>: <span class="number">100px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: pink;;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transition</span>: all <span class="number">1s</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* 鼠标滑过：添加动态效果 */</span></span></span><br><span class="line"><span class="language-css">    <span class="selector-tag">div</span><span class="selector-pseudo">:hover</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(<span class="number">800px</span>) <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">scale</span>(<span class="number">2</span>) <span class="built_in">skew</span>(<span class="number">30deg</span>);</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>transform平面转换，一般搭配transition使用：<br>平移：translate(800px)<br>旋转：rotate(360deg)<br>缩放：scale(2)<br>倾斜：skew(30deg)</p>
+<h4 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h4><p>平面转换又叫 2D转换。</p>
+<h2 id="2-平面转换-平移"><a href="#2-平面转换-平移" class="headerlink" title="2.平面转换-平移"></a>2.平面转换-平移</h2><h4 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h4><p>transform:translate(X轴移动距离，Y轴移动距离)；</p>
+<h4 id="取值"><a href="#取值" class="headerlink" title="取值"></a>取值</h4><p>像素单位数值。<br>百分比(参照盒子自身尺寸计算结果)。<br>正负均可。</p>
+<h4 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h4><p>translate()只写一个值，表示沿着X轴移动。<br>单独设置X或Y轴移动距离：translateX()或translateY()。</p>
+<h4 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.father</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">500px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">300px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">margin</span>: <span class="number">100px</span> auto;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#000</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.son</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transition</span>: all <span class="number">0.5s</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* 鼠标移入到父盒子，son改变位置 */</span></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.father</span><span class="selector-pseudo">:hover</span> <span class="selector-class">.son</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="comment">/*像素*/</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(<span class="number">300px</span>,<span class="number">200px</span>);</span></span><br><span class="line"><span class="language-css">        <span class="comment">/*百分比：参照盒子自身尺寸计算结果*/</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>,<span class="number">100%</span>);</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;father&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;son&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="拓展-1"><a href="#拓展-1" class="headerlink" title="拓展"></a>拓展</h4><p>绝对定位元素居中（例如：登录框）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.box</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">left</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">top</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>,-<span class="number">50%</span>);</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="3-平面转换-旋转"><a href="#3-平面转换-旋转" class="headerlink" title="3.平面转换-旋转"></a>3.平面转换-旋转</h2><h4 id="属性-1"><a href="#属性-1" class="headerlink" title="属性"></a>属性</h4><p>transform:rotate(旋转角度deg)<br>角度单位是deg</p>
+<h4 id="技巧-1"><a href="#技巧-1" class="headerlink" title="技巧"></a>技巧</h4><p>取正负均可<br>取值为正，顺时针旋转<br>取值为负，逆时针旋转</p>
+<h4 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">margin</span>: <span class="number">200px</span> <span class="number">600px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transition</span>: all <span class="number">2s</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* 鼠标悬停到图片上面，添加旋转效果 */</span></span></span><br><span class="line"><span class="language-css">    <span class="selector-tag">img</span><span class="selector-pseudo">:hover</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="comment">/* 正数：顺时针旋转；负数：逆时针旋转 */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">720deg</span>);</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(-<span class="number">720deg</span>);</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="4-平面转换-改变转换原点"><a href="#4-平面转换-改变转换原点" class="headerlink" title="4.平面转换-改变转换原点"></a>4.平面转换-改变转换原点</h2><p>默认情况下，转换原点是盒子中心点</p>
+<h4 id="属性-2"><a href="#属性-2" class="headerlink" title="属性"></a>属性</h4><p>transform-origin:水平原点位置 垂直原点位置</p>
+<h4 id="取值-1"><a href="#取值-1" class="headerlink" title="取值"></a>取值</h4><p>✿方位名词(left、top、right、botten、center)<br>像素单位数值<br>百分比</p>
+<h2 id="5-平面转换-多重转换"><a href="#5-平面转换-多重转换" class="headerlink" title="5.平面转换-多重转换"></a>5.平面转换-多重转换</h2><h4 id="技巧-2"><a href="#技巧-2" class="headerlink" title="技巧"></a>技巧</h4><p>transform: translate() rotate();</p>
+<h4 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.box</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">margin</span>: <span class="number">200px</span> <span class="number">350px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">800px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">height</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#000</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transition</span>: all <span class="number">5s</span>;</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* 鼠标移入box,图片边走边转 */</span></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.box</span><span class="selector-pseudo">:hover</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">        <span class="comment">/* 先平移再旋转（目标效果） */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(<span class="number">600px</span>) <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span></span><br><span class="line"><span class="language-css">        <span class="comment">/* </span></span></span><br><span class="line"><span class="comment"><span class="language-css">        先旋转再平移</span></span></span><br><span class="line"><span class="comment"><span class="language-css">        旋转会改变坐标轴向，导致效果不一样  </span></span></span><br><span class="line"><span class="comment"><span class="language-css">        多重转换：一第一种转换形态的坐标轴为准 </span></span></span><br><span class="line"><span class="comment"><span class="language-css">        */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>) <span class="built_in">translate</span>(<span class="number">600px</span>);</span></span><br><span class="line"><span class="language-css">        <span class="comment">/* 层叠性，会被后面属性覆盖 */</span></span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">translate</span>(<span class="number">600px</span>);</span></span><br><span class="line"><span class="language-css">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span></span><br><span class="line"><span class="language-css">    &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="6-平面转换-缩放"><a href="#6-平面转换-缩放" class="headerlink" title="6.平面转换-缩放"></a>6.平面转换-缩放</h2><h4 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h4><p>改变元素的width或height属性能实现吗？<br>注：该方法从左上角开始放大。</p>
+<h4 id="属性-3"><a href="#属性-3" class="headerlink" title="属性"></a>属性</h4><p>transform: scale(缩放倍数)；<br>transform: scale(X轴缩放倍数，Y轴缩放倍数);</p>
+<h4 id="技巧-3"><a href="#技巧-3" class="headerlink" title="技巧"></a>技巧</h4><p>通常，只为scale()设置一个值，表示X轴和Y轴等比例缩放<br>取值大于1表示放大，取值小于1表示缩小</p>
+<h2 id="7-平面转换-倾斜"><a href="#7-平面转换-倾斜" class="headerlink" title="7.平面转换-倾斜"></a>7.平面转换-倾斜</h2><h4 id="属性-4"><a href="#属性-4" class="headerlink" title="属性"></a>属性</h4><p>transform: skew();</p>
+<h4 id="取值-2"><a href="#取值-2" class="headerlink" title="取值"></a>取值</h4><p>角度度数deg</p>
+<h1 id="二、渐变"><a href="#二、渐变" class="headerlink" title="二、渐变"></a>二、渐变</h1><h2 id="1-概念-1"><a href="#1-概念-1" class="headerlink" title="1.概念"></a>1.概念</h2><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><p>渐变是多个颜色逐渐变化的效果，一般用于设置盒子背景</p>
+<h4 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h4><p>1.线性渐变<br>2.径向渐变</p>
+<h2 id="2-线性渐变"><a href="#2-线性渐变" class="headerlink" title="2.线性渐变"></a>2.线性渐变</h2><h4 id="属性-5"><a href="#属性-5" class="headerlink" title="属性"></a>属性</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">background-image: linear-gradient(</span><br><span class="line">	渐变方向,</span><br><span class="line">	颜色1 终点位置,</span><br><span class="line">	颜色2 终点位置,</span><br><span class="line">	……</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<h4 id="取值-3"><a href="#取值-3" class="headerlink" title="取值"></a>取值</h4><p>渐变方向：可选<br>    to 方位名称<br>    角度度数<br>终点位置：可选<br>    百分比</p>
+<h2 id="3-径向渐变"><a href="#3-径向渐变" class="headerlink" title="3.径向渐变"></a>3.径向渐变</h2><h4 id="作用-1"><a href="#作用-1" class="headerlink" title="作用"></a>作用</h4><p>给按钮添加高光效果</p>
+<h4 id="属性-6"><a href="#属性-6" class="headerlink" title="属性"></a>属性</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">background-image: radial-grandient(</span><br><span class="line">	半径 at 圆心位置,</span><br><span class="line">	颜色1 终点位置,</span><br><span class="line">	颜色2 终点位置,</span><br><span class="line">	……</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<h4 id="取值-4"><a href="#取值-4" class="headerlink" title="取值"></a>取值</h4><p>半径可以是2条，则为椭圆<br>圆心位置取值：像素单位数值&#x2F;百分比&#x2F;方位名词</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                        
+                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
