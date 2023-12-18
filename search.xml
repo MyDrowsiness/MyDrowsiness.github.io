@@ -78,15 +78,168 @@
 <p><a href="https://jamesxiang-svg.github.io/JamesXiang.github.io/">https://jamesxiang-svg.github.io/JamesXiang.github.io/</a></p>
 </blockquote>
 <h4 id="刘士毅"><a href="#刘士毅" class="headerlink" title="刘士毅"></a>刘士毅</h4><blockquote>
-<p>123</p>
+<p>暂无</p>
 </blockquote>
 <h4 id="黄倩"><a href="#黄倩" class="headerlink" title="黄倩"></a>黄倩</h4><blockquote>
-<p>123</p>
+<p><a href="https://snail0220.github.io/">https://snail0220.github.io/</a></p>
 </blockquote>
 <h4 id="刘浩"><a href="#刘浩" class="headerlink" title="刘浩"></a>刘浩</h4><blockquote>
 <p><a href="https://lh-bllog.github.io/">https://lh-bllog.github.io/</a></p>
 </blockquote>
 <hr>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/12/17/%E5%91%A8%E6%8A%A5%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<hr>
+<h2 id="周报模板"><a href="#周报模板" class="headerlink" title="周报模板"></a>周报模板</h2><h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
+<p>其他不改动</p>
+<p>tag：xx组学习周报</p>
+</blockquote>
+<h3 id="一个可以删除的提醒："><a href="#一个可以删除的提醒：" class="headerlink" title="一个可以删除的提醒："></a>一个可以删除的提醒：</h3><ol>
+<li>学习大纲的任务项和学习日历对应。</li>
+<li>学习大纲的任务项分为以下两种<ol>
+<li>与代码相关的：xx项目设计[代码，策划],学习java,专业内比赛。</li>
+<li>与代码无关的：期末复习，课堂作业，专业外比赛。</li>
+</ol>
+</li>
+<li>若当天学习内容为空，在第三栏浅浅写一下理由（不做硬性要求）。</li>
+<li>可以自己发挥。</li>
+</ol>
+<h3 id="本周学习大纲"><a href="#本周学习大纲" class="headerlink" title="本周学习大纲"></a>本周学习大纲</h3><ol>
+<li><strong>银行管理系统</strong>：做完银行管理系统。</li>
+<li><strong>JavaSE学习</strong>：学习面向对象高级的static,继承,多态。</li>
+<li><strong>JavaSE复习</strong>：复习面向对象基础的this关键字，构造器，封装，JavaBean。</li>
+</ol>
+<h3 id="本周学习日历"><a href="#本周学习日历" class="headerlink" title="本周学习日历"></a>本周学习日历</h3><table>
+<thead>
+<tr>
+<th>日历</th>
+<th>学习内容</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>星期一</td>
+<td>银行管理系统&#x2F;JavaSE学习&#x2F;JavaSE复习</td>
+<td></td>
+</tr>
+<tr>
+<td>星期二</td>
+<td>银行管理系统&#x2F;JavaSE学习</td>
+<td></td>
+</tr>
+<tr>
+<td>星期三</td>
+<td>银行管理系统&#x2F;JavaSE学习&#x2F;JavaSE复习</td>
+<td></td>
+</tr>
+<tr>
+<td>星期四</td>
+<td>银行管理系统&#x2F;JavaSE学习</td>
+<td></td>
+</tr>
+<tr>
+<td>星期五</td>
+<td>银行管理系统&#x2F;JavaSE学习</td>
+<td></td>
+</tr>
+<tr>
+<td>星期六</td>
+<td>无</td>
+<td>个人生活</td>
+</tr>
+<tr>
+<td>星期天</td>
+<td>复习期末考试</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="本周学习内容-及-收获"><a href="#本周学习内容-及-收获" class="headerlink" title="本周学习内容 及 收获"></a>本周学习内容 及 收获</h3><h4 id="银行管理系统"><a href="#银行管理系统" class="headerlink" title="银行管理系统"></a>银行管理系统</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p>链接 or 本地</p>
+<h5 id="完成状态："><a href="#完成状态：" class="headerlink" title="完成状态："></a>完成状态：</h5><p>已完成本周任务。</p>
+<h5 id="学习内容："><a href="#学习内容：" class="headerlink" title="学习内容："></a>学习内容：</h5><ol>
+<li>完成了用户登录</li>
+<li>完成了用户转账</li>
+<li>完成了用户取款</li>
+<li>完成了用户销户</li>
+</ol>
+<h5 id="学习收获"><a href="#学习收获" class="headerlink" title="学习收获"></a>学习收获</h5><p>印象比较深的是对非法输入的判断和拦截和随机生成卡号。另外，在做项目中我遇到了一个异常（比如空指针报错），我如何解决了他（自己思考&#x2F;问组长&#x2F;问老师&#x2F;百度搜索），原因是因为我并没有给此变量赋值就调用了它的方法。</p>
+<p>其他两个学习内容同理</p>
+<h3 id="下周学习大纲"><a href="#下周学习大纲" class="headerlink" title="下周学习大纲"></a>下周学习大纲</h3><ol>
+<li><strong>JavaSE复习</strong>：复习面向对象基础的this关键字，构造器，封装，JavaBean。</li>
+<li><strong>复习期末考试</strong>：复习高数&#x2F;线代&#x2F;英语</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/12/18/23%E5%8D%81%E5%85%AD%E5%91%A8%E5%91%A8%E6%8A%A5/</url>
+    <content><![CDATA[<hr>
+<h2 id="23年16周周报"><a href="#23年16周周报" class="headerlink" title="23年16周周报"></a>23年16周周报</h2><h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
+<p>tag：CodeWave</p>
+</blockquote>
+<h3 id="本周学习大纲"><a href="#本周学习大纲" class="headerlink" title="本周学习大纲"></a>本周学习大纲</h3><ol>
+<li><strong>Web前端：</strong>空间转换、动画。</li>
+<li><strong>搭建hexo博客：</strong>下载hexo、搭建博客、使用博客主题、自定义主题内容。</li>
+<li><strong>考试准备：</strong>英语四级</li>
+</ol>
+<h3 id="本周学习日历"><a href="#本周学习日历" class="headerlink" title="本周学习日历"></a>本周学习日历</h3><table>
+<thead>
+<tr>
+<th>日历</th>
+<th>学习内容</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>星期一</td>
+<td>Web</td>
+<td></td>
+</tr>
+<tr>
+<td>星期二</td>
+<td>Web</td>
+<td></td>
+</tr>
+<tr>
+<td>星期三</td>
+<td>搭建博客</td>
+<td></td>
+</tr>
+<tr>
+<td>星期四</td>
+<td>使用博客主题&#x2F;自定义博客内容</td>
+<td></td>
+</tr>
+<tr>
+<td>星期五</td>
+<td></td>
+<td>学英语</td>
+</tr>
+<tr>
+<td>星期六</td>
+<td></td>
+<td>四级考试&#x2F;休息</td>
+</tr>
+<tr>
+<td>星期天</td>
+<td></td>
+<td>个人生活</td>
+</tr>
+</tbody></table>
+<h3 id="本周学习内容-及-收获"><a href="#本周学习内容-及-收获" class="headerlink" title="本周学习内容 及 收获"></a>本周学习内容 及 收获</h3><hr>
+<h4 id="Web前端"><a href="#Web前端" class="headerlink" title="Web前端"></a>Web前端</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p>链接 or 本地</p>
+<h5 id="完成状态："><a href="#完成状态：" class="headerlink" title="完成状态："></a>完成状态：</h5><p>未完成本周任务。美化博客花了很久的时间，四级考试前后懈怠了没有学习。</p>
+<h5 id="学习内容："><a href="#学习内容：" class="headerlink" title="学习内容："></a>学习内容：</h5><ol>
+<li>空间转换：平移、旋转、视距、立体呈现、缩放</li>
+<li>动画：走马灯效果</li>
+</ol>
+<h5 id="学习收获"><a href="#学习收获" class="headerlink" title="学习收获"></a>学习收获</h5><p>web学习的内容并不多，主要是学了空间转换和动画效果。但是我花了很多时间美化博客，让我摸清了博客跟目录文件和代码作用，自主学习能力增强了一丢丢。<br>我在美化博客的时候使用了阿里OSS库里面存储的图片，第二天发现OSS欠费了…现在博客就是无图片状态了。</p>
+<h3 id="下周学习大纲"><a href="#下周学习大纲" class="headerlink" title="下周学习大纲"></a>下周学习大纲</h3><ol>
+<li><strong>Web</strong>：基础部分学完。</li>
+<li><strong>javaweb</strong>:复习javaweb、完善苍穹外卖。</li>
+</ol>
 ]]></content>
   </entry>
 </search>
