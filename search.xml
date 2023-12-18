@@ -90,10 +90,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>周报模板</title>
     <url>/2023/12/17/%E5%91%A8%E6%8A%A5%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<hr>
-<h2 id="title-周报模板"><a href="#title-周报模板" class="headerlink" title="title:周报模板"></a>title:周报模板</h2><h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
+    <content><![CDATA[<h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
 <p>CodeWave</p>
 </blockquote>
 <h3 id="一个可以删除的提醒："><a href="#一个可以删除的提醒：" class="headerlink" title="一个可以删除的提醒："></a>一个可以删除的提醒：</h3><ol>
@@ -172,10 +171,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>23年16周周报</title>
     <url>/2023/12/18/23%E5%8D%81%E5%85%AD%E5%91%A8%E5%91%A8%E6%8A%A5/</url>
-    <content><![CDATA[<hr>
-<h2 id="23年16周周报"><a href="#23年16周周报" class="headerlink" title="23年16周周报"></a>23年16周周报</h2><h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
+    <content><![CDATA[<h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
 <p>tag：CodeWave</p>
 </blockquote>
 <h3 id="本周学习大纲"><a href="#本周学习大纲" class="headerlink" title="本周学习大纲"></a>本周学习大纲</h3><ol>
@@ -228,7 +226,7 @@
 </tr>
 </tbody></table>
 <h3 id="本周学习内容-及-收获"><a href="#本周学习内容-及-收获" class="headerlink" title="本周学习内容 及 收获"></a>本周学习内容 及 收获</h3><hr>
-<h4 id="Web前端"><a href="#Web前端" class="headerlink" title="Web前端"></a>Web前端</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p>链接 or 本地</p>
+<h4 id="Web前端"><a href="#Web前端" class="headerlink" title="Web前端"></a>Web前端</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p><a href="https://mydrowsiness.github.io/2023/12/18/2023-12-17-WebDay02/">Web-Day02</a></p>
 <h5 id="完成状态："><a href="#完成状态：" class="headerlink" title="完成状态："></a>完成状态：</h5><p>未完成本周任务。美化博客花了很久的时间，四级考试前后懈怠了没有学习。</p>
 <h5 id="学习内容："><a href="#学习内容：" class="headerlink" title="学习内容："></a>学习内容：</h5><ol>
 <li>空间转换：平移、旋转、视距、立体呈现、缩放</li>
