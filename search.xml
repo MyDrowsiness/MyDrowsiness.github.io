@@ -304,13 +304,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>开会</title>
-    <url>/2023/12/18/111/</url>
-    <content><![CDATA[<p>dsgvfsgvs</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
+    <title>Web笔记Day02</title>
     <url>/2023/12/24/2023-12-24-WebDay04/</url>
     <content><![CDATA[<h1 id="一、响应式网页"><a href="#一、响应式网页" class="headerlink" title="一、响应式网页"></a>一、响应式网页</h1><h4 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h4><ol>
 <li><p>媒体查询</p>
@@ -511,7 +505,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>Web笔记Day02</title>
     <url>/2023/12/20/2023-12-20-WebDay03/</url>
     <content><![CDATA[<h1 id="一、移动适配"><a href="#一、移动适配" class="headerlink" title="一、移动适配"></a>一、移动适配</h1><h4 id="谷歌模拟器"><a href="#谷歌模拟器" class="headerlink" title="谷歌模拟器"></a>谷歌模拟器</h4><p>谷歌浏览器自带的模拟器，可以模拟其他设备，使查看不同端的css效果更方便。（edge浏览器也有，就是“检查”右边的图标）</p>
 <h4 id="屏幕分辨率"><a href="#屏幕分辨率" class="headerlink" title="屏幕分辨率"></a>屏幕分辨率</h4><ol>
