@@ -6,20 +6,9 @@
     <content><![CDATA[<h2 id="2023年12月11日-2023年12月17日"><a href="#2023年12月11日-2023年12月17日" class="headerlink" title="2023年12月11日-2023年12月17日"></a>2023年12月11日-2023年12月17日</h2><blockquote>
 <p>CodeWave</p>
 </blockquote>
-<h3 id="一个可以删除的提醒："><a href="#一个可以删除的提醒：" class="headerlink" title="一个可以删除的提醒："></a>一个可以删除的提醒：</h3><ol>
-<li>学习大纲的任务项和学习日历对应。</li>
-<li>学习大纲的任务项分为以下两种<ol>
-<li>与代码相关的：xx项目设计[代码，策划],学习java,专业内比赛。</li>
-<li>与代码无关的：期末复习，课堂作业，专业外比赛。</li>
-</ol>
-</li>
-<li>若当天学习内容为空，在第三栏浅浅写一下理由（不做硬性要求）。</li>
-<li>可以自己发挥。</li>
-</ol>
 <h3 id="本周学习大纲"><a href="#本周学习大纲" class="headerlink" title="本周学习大纲"></a>本周学习大纲</h3><ol>
-<li><strong>银行管理系统</strong>：做完银行管理系统。</li>
-<li><strong>JavaSE学习</strong>：学习面向对象高级的static,继承,多态。</li>
-<li><strong>JavaSE复习</strong>：复习面向对象基础的this关键字，构造器，封装，JavaBean。</li>
+<li><strong>web前端</strong>：移动适配：rem、less、vw；响应式网页：媒体查询、Bootstrap。</li>
+<li><strong>期末复习</strong>：数据结构</li>
 </ol>
 <h3 id="本周学习日历"><a href="#本周学习日历" class="headerlink" title="本周学习日历"></a>本周学习日历</h3><table>
 <thead>
@@ -31,53 +20,52 @@
 </thead>
 <tbody><tr>
 <td>星期一</td>
-<td>银行管理系统&#x2F;JavaSE学习&#x2F;JavaSE复习</td>
 <td></td>
+<td>个人生活</td>
 </tr>
 <tr>
 <td>星期二</td>
-<td>银行管理系统&#x2F;JavaSE学习</td>
+<td>Web</td>
 <td></td>
 </tr>
 <tr>
 <td>星期三</td>
-<td>银行管理系统&#x2F;JavaSE学习&#x2F;JavaSE复习</td>
+<td>Web</td>
 <td></td>
 </tr>
 <tr>
 <td>星期四</td>
-<td>银行管理系统&#x2F;JavaSE学习</td>
+<td>Web</td>
 <td></td>
 </tr>
 <tr>
 <td>星期五</td>
-<td>银行管理系统&#x2F;JavaSE学习</td>
 <td></td>
-</tr>
-<tr>
-<td>星期六</td>
-<td>无</td>
 <td>个人生活</td>
 </tr>
 <tr>
+<td>星期六</td>
+<td>Web</td>
+<td></td>
+</tr>
+<tr>
 <td>星期天</td>
-<td>复习期末考试</td>
+<td>Web</td>
 <td></td>
 </tr>
 </tbody></table>
-<h3 id="本周学习内容-及-收获"><a href="#本周学习内容-及-收获" class="headerlink" title="本周学习内容 及 收获"></a>本周学习内容 及 收获</h3><h4 id="银行管理系统"><a href="#银行管理系统" class="headerlink" title="银行管理系统"></a>银行管理系统</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p>链接 or 本地</p>
-<h5 id="完成状态："><a href="#完成状态：" class="headerlink" title="完成状态："></a>完成状态：</h5><p>已完成本周任务。</p>
+<h3 id="本周学习内容-及-收获"><a href="#本周学习内容-及-收获" class="headerlink" title="本周学习内容 及 收获"></a>本周学习内容 及 收获</h3><h4 id="银行管理系统"><a href="#银行管理系统" class="headerlink" title="银行管理系统"></a>银行管理系统</h4><h5 id="笔记："><a href="#笔记：" class="headerlink" title="笔记："></a>笔记：</h5><p><a href="https://mydrowsiness.github.io/2023/12/20/2023-12-20-WebDay03/">链接</a></p>
+<p><a href="https://mydrowsiness.github.io/2023/12/24/2023-12-24-WebDay04">链接</a></p>
+<h5 id="完成状态："><a href="#完成状态：" class="headerlink" title="完成状态："></a>完成状态：</h5><p>未完成本周任务。</p>
 <h5 id="学习内容："><a href="#学习内容：" class="headerlink" title="学习内容："></a>学习内容：</h5><ol>
-<li>完成了用户登录</li>
-<li>完成了用户转账</li>
-<li>完成了用户取款</li>
-<li>完成了用户销户</li>
+<li>学习了移动适配的相关知识内容。</li>
+<li>学习了响应式网页的编写以及Bootstrap模板的使用。</li>
 </ol>
-<h5 id="学习收获"><a href="#学习收获" class="headerlink" title="学习收获"></a>学习收获</h5><p>印象比较深的是对非法输入的判断和拦截和随机生成卡号。另外，在做项目中我遇到了一个异常（比如空指针报错），我如何解决了他（自己思考&#x2F;问组长&#x2F;问老师&#x2F;百度搜索），原因是因为我并没有给此变量赋值就调用了它的方法。</p>
-<p>其他两个学习内容同理</p>
+<h5 id="学习收获"><a href="#学习收获" class="headerlink" title="学习收获"></a>学习收获</h5><p>了解并学会了web页面的各种屏幕的适配，收获很多，但是感觉暂时用不上会很容易忘记。打算寒假利用这个知识来编写一个网页来作为复习。然后就是响应式网页，真的很有用，能让我的web页面更加专业好用，学到了使用Bootstrap模板，但是使用模板也蛮繁杂的，需要看懂模板的代码，需要修改&#x2F;覆盖模板的样式挺麻烦的。总之这周学到的web知识很有用，学的内容不多。</p>
 <h3 id="下周学习大纲"><a href="#下周学习大纲" class="headerlink" title="下周学习大纲"></a>下周学习大纲</h3><ol>
-<li><strong>JavaSE复习</strong>：复习面向对象基础的this关键字，构造器，封装，JavaBean。</li>
-<li><strong>复习期末考试</strong>：复习高数&#x2F;线代&#x2F;英语</li>
+<li><strong>JS</strong>：学完</li>
+<li><strong>苍穹外卖</strong>：继续完善</li>
+<li><strong>复习</strong>：准备期末考试</li>
 </ol>
 ]]></content>
   </entry>
